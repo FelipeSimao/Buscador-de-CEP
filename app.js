@@ -5,7 +5,7 @@ function buscarCep(){
     let cep = document.querySelector('input').value
 
     if(cep === ''){
-        erro()
+        return erro()
     }
 
 
